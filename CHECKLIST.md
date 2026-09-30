@@ -27,6 +27,13 @@ Esta lista registra lo que ya forma parte de mi punto de partida y lo que falta 
 - [ ] Eventos y cambios en la página.
 - [ ] Depurar con la consola del navegador.
 
+## Git
+### Practicado
+- [x] Preparar archivos con `git add`, crear un commit con `git commit` y subirlo con `git push`.
+
+### Pendiente
+- [ ] Explicar con mis palabras qué hace cada paso y cómo comprobar el estado con `git status`.
+
 ## Hábitos de trabajo
 - [ ] Probar cambios pequeños y observar el resultado.
 - [ ] Leer errores y buscar la parte del código relacionada.
