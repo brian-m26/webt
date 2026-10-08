@@ -41,4 +41,5 @@ Esta lista registra lo que ya forma parte de mi punto de partida y lo que falta 
 
 ## Registro de sesiones
 - Práctica: identificar que para convertir una frase en encabezado se cambia la etiqueta que la contiene; por consolidar que en este ejemplo se cambia `<p>` por `<h1>`.
+- Práctica guiada: separar el contenido HTML del diseño en `styles.css`, y crear enlaces con aspecto de botones para navegar entre categorías; pendiente explicar y aplicar estos conceptos por cuenta propia.
 - Aún no hay conceptos nuevos confirmados como aprendidos.

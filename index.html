@@ -2,11 +2,45 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Mi primera pagina</title>
-        <meta name="description" content="Esta es mi primera pagina web">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mi primera página</title>
+        <meta name="description" content="Encuentra productos en distintas categorías.">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Hola</h1>
-        <h2>esta es mi primera pagina web</h2>
+        <header class="encabezado">
+            <p class="etiqueta">Explora y encuentra</p>
+            <h1>Bienvenido</h1>
+            <p class="introduccion">Aquí encontrarás productos en distintas categorías.</p>
+        </header>
+
+        <main>
+            <nav class="categorias" aria-label="Categorías">
+                <a class="boton-categoria" href="#autos-y-motos">Autos y Motos <span aria-hidden="true">→</span></a>
+                <a class="boton-categoria" href="#ropa-y-accesorios">Ropa y Accesorios <span aria-hidden="true">→</span></a>
+                <a class="boton-categoria" href="#electrodomesticos">Electrodomésticos <span aria-hidden="true">→</span></a>
+            </nav>
+
+            <section class="secciones-categorias" aria-label="Información de las categorías">
+                <article class="tarjeta" id="autos-y-motos">
+                    <h2>Autos y Motos</h2>
+                    <p>Encuentra opciones para salir a la ruta o moverte por la ciudad.</p>
+                </article>
+
+                <article class="tarjeta" id="ropa-y-accesorios">
+                    <h2>Ropa y Accesorios</h2>
+                    <p>Descubre prendas y accesorios para todos los días.</p>
+                </article>
+
+                <article class="tarjeta" id="electrodomesticos">
+                    <h2>Electrodomésticos</h2>
+                    <p>Explora artículos para equipar tu hogar.</p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>Elige una categoría para empezar a explorar.</p>
+        </footer>
     </body>
 </html>
